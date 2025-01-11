@@ -63,10 +63,19 @@ section {
 .subscribe {
     text-align: center;
     padding: 80px 100px;
-    padding-left: -50px;
+    padding-left: flex;
     background-color: #fff;
     border-radius: 24px;
     background: #c6e4d6;
+}
+
+
+.subscribe form {
+    display:flex;
+    gap: 0;
+    /* margin-left:auto;
+    margin-right: auto; */
+    justify-content: center;
 }
 
 
@@ -77,6 +86,9 @@ margin: 0;
 box-sizing: border-box;
 font-family: "Fira Sans", serif;
 background-color: #fff;
+/* display: flex;
 align-items: center;
+justify-content: center; */
+text-align:center;
 padding: 50px;
 border-radius: 40px 40px 0 0;}
