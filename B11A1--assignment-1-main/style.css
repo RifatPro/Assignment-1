@@ -22,7 +22,19 @@ margin: 20px 160px;
 display: flex;
 justify-content: space-between;
 }
-
+.sign-in-btn {
+    color: #006a50;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #006a50;
+    background-color: #fff;
+}
+.sign-in-btn:hover {
+    background-color:green; /* New background color when hovered */
+  }
 .hero {
     /* padding: 0; */
     box-sizing: border-box;
@@ -62,17 +74,10 @@ justify-content: space-between;
     background: #006a50;
     border-radius: 8px;
 }
+.explore-btn:hover {
+    background-color:yellowgreen; /* New background color when hovered */
+  }
 
-.sign-in-btn {
-    color: #006a50;
-    font-family: "Fira Sans";
-    font-size: 18px;
-    font-weight: 600;
-    padding: 15px 30px;
-    border-radius: 8px;
-    border: 1px solid #006a50;
-    background-color: #fff;
-}
 
 
 
@@ -139,15 +144,20 @@ width: 1280px;
 }
 
 
+
+
 #blue-btn {
     background: #5490f5;
 }
+#blue-btn:hover {background-color: yellow;}
 #green-btn {
     background: #09a15c;
 }
+#green-btn:hover {background-color: rgb(72, 72, 9);}
 #yellow-btn {
     background: #ffc239;
 }
+#yellow-btn:hover {background-color: rgb(38, 202, 38);}
 
 
 
@@ -161,7 +171,16 @@ width: 1280px;
     background: #f7ebcf;
 }
 
+#vision-first-box:hover {
+    background: rgba(84, 144, 245, 0.5);
+}
 
+#vision-second-box:hover {
+    background: #86ebbc;
+}
+#vision-third-box:hover {
+    background: #efc669;
+}
 .quote {
     background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
@@ -256,7 +275,9 @@ width: 1280px;
     padding: 13px 26px;
     border-radius: 8px;
 }
-
+.read-btn:hover {
+    background-color: #9eefdb
+}
 
 
 
@@ -307,6 +328,9 @@ width: 1280px;
 .active {
     background-color: #c6e4d6;
 }
+.ammount-box:hover {
+    background-color: #c6e4d6;
+}
 
 
 .donate input {
@@ -328,6 +352,7 @@ width: 1280px;
     display: block;
     margin: auto;
 }
+.donate-btn:hover   { background-color: #21cca1;}
 
 
 
@@ -362,29 +387,35 @@ width: 1280px;
     margin: 0px auto 10px;
 }
 
-.subscribe input {
+/* .subscribe input {
     font-size: 16px;
-}
+} */
 
-.subscribe > input {
-    /* font-size: 20px; */
+.subscribe form > input {
+    font-size: 20px;
     border: none;
     border-radius: 8px 0 0 8px;
-    width: 60%;
-    height: 55px;
-    padding: 28px 40px;
+    width: 568px;
+    /* height: 55px; */
+    padding: 17px 35px;
     margin: 24px 0px;
+
 }
 
 .subscribe-btn {
     color: #fff;
     background-color: #006a50;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 500;
     padding: 17px 34px;
     border-radius: 0 8px 8px 0;
+    justify-self: center;
+    /* height: 55px; */
 }
 
+.subscribe-btn:hover {
+    background-color: #149373;
+}
 
 .subscribe form {
     display:flex;
@@ -392,6 +423,8 @@ width: 1280px;
     /* margin-left:auto;
     margin-right: auto; */
     justify-content: center;
+    /* background-color: black; */
+    align-items: center;
 }
 
 
@@ -407,4 +440,5 @@ align-items: center;
 justify-content: center; */
 text-align:center;
 padding: 50px;
-border-radius: 40px 40px 0 0;}
+border-radius: 40px 40px 0 0;
+}
