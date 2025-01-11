@@ -29,6 +29,7 @@ justify-content: space-between;
     font-family: "Fira Sans", serif;
     margin: 100px auto;
     width: 1280px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,9 +262,83 @@ width: 1280px;
 
 
 
+.donate {
+    text-align: center;
+}
+.donate h2 {
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.donate > p {
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.ammount-box-container {
+    display: flex
+;
+    gap: 20px;
+    justify-content: center;
+    margin: 32px auto;
+}
+.ammount-box {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #fff;
+    height: 128px;
+    width: 252px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-weight: 700;
+}
+.active {
+    background-color: #c6e4d6;
+}
+
+
+.donate input {
+    font-size: 20px;
+    border: none;
+    width: 80%;
+    margin: 32px auto;
+    height: 64px;
+    padding: 20px 40px;
+    text-align: center;
+}
+.donate-btn {
+    color: #fff;
+    background-color: #006a50;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 17px 34px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+
+
+
 
 
 .subscribe {
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+    margin: 100px auto;
+    width: 1280px;
+    
     text-align: center;
     padding: 80px 100px;
     padding-left: flex;
